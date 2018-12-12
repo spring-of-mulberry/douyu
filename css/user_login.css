@@ -1,0 +1,127 @@
+body{
+	align:center;
+}
+/*
+ * 网页整体背景设计
+ */
+.index{
+	margin: auto;
+	width: 1200px;
+	height: 800px;
+	border: 2em;
+	background-color: beige;
+	
+	
+}
+/*
+ * 头部和底部的背景设计
+ */
+.head{
+	width: auto;
+	height: 85px;
+	background: linear-gradient(to right,#AEEEEE,#C7C7C7);
+}
+/*
+ * 设置网页中间部分的背景
+ */
+.body{
+	position: absolute;
+	width: 1200px;
+	height: 680px;
+	margin-left: 0px;
+	margin-top: 0px;
+	background: url(../img/登录背景图.jpg) no-repeat ;
+}
+/*
+  *网页底部背景设计
+  */
+.foot{
+	position: absolute;
+	background: linear-gradient(to right,#AEEEEE,#C7C7C7);
+	position: absolute;
+	width: 1200px;
+	height: 48px;
+	margin-top: 680px;
+}
+#logo{
+	width: auto;
+	border-spacing: ;
+}
+/*
+ * 设置该网页所在的公司的名称
+ */
+#company{
+	color: dodgerblue;
+	font-size:65px;
+	font-family: "bookman old style";
+	vertical-align: top;
+}
+/*
+ * 设置“欢迎阅读的滚动”
+ */
+#top_body{
+	width: 950px;
+	font-style: italic;
+	color: firebrick;
+	font-size: 60px;
+	vertical-align: text-top;
+	
+}
+/*
+ * 设置用户登录的标题
+ */
+.body_head{
+	position: absolute;
+	width: 400px;
+	height: 50px;
+	margin-left: 400px;
+	margin-top: 200px;
+	background-color: whitesmoke;
+	color: orangered;
+	font-size: xx-large;
+	font-family: "new york";
+	font-style: normal;
+	text-align: center;
+}
+/*
+ * 登录框体标签文字设计
+ */
+#body_font{
+	position: absolute;
+	margin-top: 2px;
+	margin-left: -60px;
+}
+/*
+ * 设计登录设置框体
+ */
+.body_msg{
+	width: 400px;
+	height: 320px;
+	margin-left: 400px;
+	margin-top: 280px;
+	background-color: whitesmoke;
+	font-family: "微软雅黑";
+	font-style: normal;
+	font-size: larger;
+	 
+}
+/*
+ * 
+ */
+#body_regist{
+	position: absolute;
+	margin-left: 85px;
+	margin-top: 80px;
+	
+}
+/*
+ * 网页底部文字设计
+ */
+.foot_font{
+	position: absolute;
+	font-family: "微软雅黑";
+	font-size: larger;
+	text-align: center;
+	margin-left: 400px;
+	
+}
