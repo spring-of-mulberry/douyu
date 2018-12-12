@@ -1,0 +1,122 @@
+body{
+	width: 1320px;
+	height: 900px;
+	background-color: beige;
+	margin-left: 15px;
+}
+/*
+ * 设计头部的背景
+ */
+.head{
+	position: absolute;
+	width: 1320px;
+	height: 80px;
+	background-color: burlywood;
+}
+/*
+ * 设计logo旁边公司名称
+ */
+#company{
+	position: absolute;
+	height: 80px;
+	width: 20%;
+	top:-10px;
+	font-size: 65px;
+	font-family: "微软雅黑";
+	padding-top: 4px;
+	color: dodgerblue;
+	margin-left: 80px;
+	margin-top: auto;
+}
+/*
+ * 设计头部的中间字段
+ */
+#name{
+	position: absolute;
+	height: 80px;
+	width: 40%;
+	font-size: 65px;
+	font-style: italic;//斜体
+	color: indianred;
+	margin-left: 370px;
+	margin-top: -80px;
+}
+/*
+ * 头部的语言设置设计
+ */
+#language{
+	position: absolute;
+	height: 80px;
+	width: 80px;
+	margin-left: 60px;
+	margin-top: -90px;
+}
+/*
+ * “语言选择字体设计”
+ */
+#head_language{
+	color: black;
+	position: absolute;
+	width: 80px;
+	height: 30px;
+	margin-left: 1190px;
+	margin-top: 20px;
+}
+/*
+ * select标签选择语言设计
+ */
+#user_language{
+	position: absolute;
+	left: 1200px;
+	top:50px;
+}
+/*
+ * 上标按钮的背景设计
+ */
+.nov{
+	width: 1320px;
+	height: 30px;
+	margin-top: -4px;
+	background-color: rosybrown;
+}
+/*
+ * 按钮的设计
+ */
+#nov_table{
+	position: absolute;
+	margin-top: 1px;
+	margin-left: 500px;
+}
+/*
+ * 中间部分的背景设计
+ */
+.body{
+	background: url(../img/首页背景图.jpg) ;
+	position: absolute;
+	width: 1320px;
+	height: 800px;
+	margin-top: 0px;
+	margin-left: 0px;
+	
+}
+/*
+ * 底部背景设计
+ */
+.foot{
+	position: absolute;
+	width: 1320px;
+	height: 60px;
+	margin-top: 800px;
+	background-color: rosybrown;
+}
+/*
+ * 底部文字设计
+ */
+#foot_font{
+	position: absolute;
+	font-family: "微软雅黑";
+	font-size: larger;
+	text-align: center;
+	margin-left: 500px;
+	
+}
